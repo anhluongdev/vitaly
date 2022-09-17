@@ -1,0 +1,65 @@
+.p-footer {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  &__info {
+    padding-right: 20px;
+    border-right: 1px dotted #fff;
+    line-height: 1.7;
+    width: 42%;
+    & :not(p:first-child) {
+      font-size: 0.9rem;
+    }
+    &__title {
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+  }
+  &__getNews {
+    border-right: 1px dotted #fff;
+    padding: 0 20px;
+    line-height: 1.5;
+    font-size: 0.9rem;
+    width: 25%;
+    &__input {
+      display: flex;
+      width: 85%;
+      padding-top: 10px;
+      input {
+        border: none;
+        outline: none;
+        flex: 1;
+        padding-left: 10px;
+      }
+      button {
+        border: none;
+        padding: 10px 15px;
+        color: #fff;
+        background: #2875c7;
+      }
+    }
+  }
+  &__copyright {
+    padding-left: 20px;
+    font-size: 0.9rem;
+    line-height: 1.7;
+    text-align: right;
+    a {
+      color: #fff;
+    }
+    .linkAd:hover {
+        text-decoration: underline;
+    }
+    .socials {
+      a {
+        padding: 5px 8px;
+        display: inline-block;
+        width: 15px;
+        background: #2875c7;
+        &:hover {
+            background: #DE1C36;
+        }
+      }
+    }
+  }
+}
