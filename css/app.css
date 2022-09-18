@@ -7782,57 +7782,6 @@ readers do not read off random characters that represent icons */
   padding: 20px 100px;
   background: #0F4A89; }
 
-.p-footer {
-  display: flex;
-  justify-content: space-between;
-  color: #fff; }
-  .p-footer__info {
-    padding-right: 20px;
-    border-right: 1px dotted #fff;
-    line-height: 1.7;
-    width: 42%; }
-    .p-footer__info :not(p:first-child) {
-      font-size: 0.9rem; }
-    .p-footer__info__title {
-      font-size: 1.1rem;
-      font-weight: 600; }
-  .p-footer__getNews {
-    border-right: 1px dotted #fff;
-    padding: 0 20px;
-    line-height: 1.5;
-    font-size: 0.9rem;
-    width: 25%; }
-    .p-footer__getNews__input {
-      display: flex;
-      width: 85%;
-      padding-top: 10px; }
-      .p-footer__getNews__input input {
-        border: none;
-        outline: none;
-        flex: 1;
-        padding-left: 10px; }
-      .p-footer__getNews__input button {
-        border: none;
-        padding: 10px 15px;
-        color: #fff;
-        background: #2875c7; }
-  .p-footer__copyright {
-    padding-left: 20px;
-    font-size: 0.9rem;
-    line-height: 1.7;
-    text-align: right; }
-    .p-footer__copyright a {
-      color: #fff; }
-    .p-footer__copyright .linkAd:hover {
-      text-decoration: underline; }
-    .p-footer__copyright .socials a {
-      padding: 5px 8px;
-      display: inline-block;
-      width: 15px;
-      background: #2875c7; }
-      .p-footer__copyright .socials a:hover {
-        background: #DE1C36; }
-
 .p-header {
   display: flex;
   justify-content: space-between; }
@@ -7875,16 +7824,82 @@ readers do not read off random characters that represent icons */
           cursor: pointer; }
           .p-header .p-header-right__search-lang .lang a img {
             padding-left: 10px; }
-    .p-header .p-header-right__menu ul {
+    .p-header .p-header-right__menu__list {
       display: flex; }
-      .p-header .p-header-right__menu ul li {
+      .p-header .p-header-right__menu__list li {
         padding: 0px 8px;
         font-size: 0.9rem; }
-        .p-header .p-header-right__menu ul li a {
+        .p-header .p-header-right__menu__list li a {
           color: #000;
           padding: 5px; }
-          .p-header .p-header-right__menu ul li a:hover {
+          .p-header .p-header-right__menu__list li a:hover {
             background: #0f4a89;
             color: #fff; }
+
+.p-carousel__banner .carousel .carousel-indicators {
+  align-items: center; }
+  .p-carousel__banner .carousel .carousel-indicators [data-bs-target] {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer; }
+    .p-carousel__banner .carousel .carousel-indicators [data-bs-target].active {
+      background: #f00;
+      border: solid #fff 1px; }
+.p-carousel__banner .carousel .carousel-inner .carousel-item img {
+  height: 350px;
+  object-fit: cover; }
+
+.p-footer {
+  display: flex;
+  justify-content: space-between;
+  color: #fff; }
+  .p-footer__info {
+    padding-right: 20px;
+    border-right: 1px dotted #fff;
+    line-height: 1.7;
+    width: 42%; }
+    .p-footer__info :not(p:first-child) {
+      font-size: 0.9rem; }
+    .p-footer__info__title {
+      font-size: 1.1rem;
+      font-weight: 600; }
+  .p-footer__getNews {
+    border-right: 1px dotted #fff;
+    padding-right: 20px;
+    padding-left: 20px;
+    line-height: 1.5;
+    font-size: 0.9rem;
+    width: 30%; }
+    .p-footer__getNews__input {
+      display: flex;
+      width: 90%;
+      padding-top: 10px; }
+      .p-footer__getNews__input input {
+        border: none;
+        outline: none;
+        flex: 1;
+        padding: 0 10px; }
+      .p-footer__getNews__input button {
+        border: none;
+        padding: 10px 15px;
+        color: #fff;
+        background: #2875c7; }
+  .p-footer__copyright {
+    padding-left: 20px;
+    font-size: 0.9rem;
+    line-height: 1.7;
+    text-align: right; }
+    .p-footer__copyright a {
+      color: #fff; }
+    .p-footer__copyright .linkAd:hover {
+      text-decoration: underline; }
+    .p-footer__copyright .socials a {
+      padding: 5px 8px;
+      display: inline-block;
+      width: 30px;
+      background: #2875c7; }
+      .p-footer__copyright .socials a:hover {
+        background: #DE1C36; }
 
 /*# sourceMappingURL=app.css.map */

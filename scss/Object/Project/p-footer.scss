@@ -17,19 +17,20 @@
   }
   &__getNews {
     border-right: 1px dotted #fff;
-    padding: 0 20px;
+    padding-right: 20px;
+    padding-left: 20px;
     line-height: 1.5;
     font-size: 0.9rem;
-    width: 25%;
+    width: 30%;
     &__input {
       display: flex;
-      width: 85%;
+      width: 90%;
       padding-top: 10px;
       input {
         border: none;
         outline: none;
         flex: 1;
-        padding-left: 10px;
+        padding: 0 10px;
       }
       button {
         border: none;
@@ -54,7 +55,7 @@
       a {
         padding: 5px 8px;
         display: inline-block;
-        width: 15px;
+        width: 30px;
         background: #2875c7;
         &:hover {
             background: #DE1C36;

@@ -1,0 +1,30 @@
+.p-carousel {
+  &__banner {
+    .carousel {
+      .carousel-indicators {
+        align-items: center;
+        [data-bs-target] {
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          cursor: pointer;
+          &.active {
+            background: #f00;
+            border: solid #fff 1px;
+          }
+        }
+      }
+      .carousel-inner {
+        .carousel-item {
+            img {
+                height: 350px;
+                object-fit: cover;
+                
+            }
+        }
+      }
+    }
+  }
+  &__product {
+  }
+}
